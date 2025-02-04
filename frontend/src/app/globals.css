@@ -1,0 +1,14 @@
+@import "@fontsource/inter/index.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-100 text-gray-900 min-h-screen;
+}
+
+h1, h2 {
+  @apply font-bold;
+}
