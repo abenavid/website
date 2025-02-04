@@ -29,7 +29,7 @@ export default function Upload() {
         { headers: { "Content-Type": "multipart/form-data" } }
       );
       setMessage(response.data.message);
-    } catch (_) {
+    } catch {
       setMessage("Error uploading file");
     }
   };
